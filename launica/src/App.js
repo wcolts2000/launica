@@ -7,6 +7,7 @@ import Carpa from './components/sections/Carpas';
 import Brincolin from './components/sections/Brincolin';
 import Packages from './components/sections/Packages';
 import Contact from './components/sections/Contact';
+import Footer from './components/footer/Footer'
 
 const AppDiv = styled.div`
 `
@@ -25,6 +26,7 @@ function App() {
         <Carpa />
         <Brincolin/>
         <Contact />
+        <Footer />
     </AppDiv>
   );
 }

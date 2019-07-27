@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Div = styled.div`
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-around;
     h2 {
         width: 100%;
         font-size: 36px;
