@@ -8,7 +8,32 @@ const Div = styled.div`
     h2 {
         width: 100%;
         font-size: 36px;
-        padding: 10px 0 60px;
+        padding: 100px 0 100px;
+        position: relative;
+        color: rebeccapurple;
+
+        &::after {
+            position: absolute;
+            content: '';
+            width: 80px;
+            height: 7px;
+            background: rebeccapurple;
+            left: 35%;
+            z-index: 3;
+            top: 120px;
+            
+        }
+        &::before {
+            position: absolute;
+            content: '';
+            width: 80px;
+            height: 7px;
+            background: rebeccapurple;
+            left: 60%;
+            z-index: 3;
+            top: 120px;
+            
+        }
     }
 
     p {
@@ -32,9 +57,9 @@ const Div = styled.div`
 
 function Carpa() {
     return (
-        <Div>
+        <Div id="carpas">
             <h2>Carpa</h2>
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvL6sDDFjBQHHm_ylvL25Fz0vcF4SN_UrhTqJ3OvxCTirOdTK' />
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvL6sDDFjBQHHm_ylvL25Fz0vcF4SN_UrhTqJ3OvxCTirOdTK' alt="rental tents"/>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ullam neque impedit atque ipsam blanditiis totam dolor accusantium assumenda libero quas iure earum, voluptatibus aliquam hic alias vero corrupti veritatis.</p>
         </Div>
     )

@@ -10,7 +10,7 @@ import Contact from './components/sections/Contact';
 import Footer from './components/footer/Footer'
 
 const AppDiv = styled.div`
-background-color: papayawhip;
+background-color: lightpink;
 `
 
 const H1 = styled.h1`
@@ -19,6 +19,7 @@ const H1 = styled.h1`
  letter-spacing: 10.75px;
  font-size: 88px;
  font-weight: bolder;
+ color: red;
 
  span {
    position: relative;
@@ -33,7 +34,7 @@ const H1 = styled.h1`
 
 function App() {
   return (
-    <AppDiv className="App">
+    <AppDiv id="brand" className="App">
           <Header/>
         <H1>La Unica<br/> <span>Mesas, Sillas, Brincolins, y Carpas</span></H1>
         <Packages />

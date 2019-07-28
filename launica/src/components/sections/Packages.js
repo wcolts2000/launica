@@ -37,7 +37,7 @@ const Div = styled.div`
         font-weight: bold;
         letter-spacing: 1.5px;
         top: -25px;
-        border-radius: 3px;
+        border-radius: 7px;
         right: 0;
         background: yellow;
         padding: 10px;
@@ -48,9 +48,8 @@ const Ul = styled.ul`
     position: relative;
     text-align: left;
     padding: 20px;
-    background: lightblue;
-    opacity: .8;
-    border-radius: 5px;
+    background: lightsalmon;
+    border-radius: 7px;
     position: relative;
 
     li {
@@ -68,7 +67,7 @@ const Ul = styled.ul`
             font-weight: bold;
             letter-spacing: 1.5px;
             top: 0 ;
-            border-radius: 3px;
+            border-radius: 7px;
             right: 0;
             background: yellow;
             padding: 0 5px;  
@@ -101,16 +100,16 @@ function Packages() {
         </Ul>
         <h3>Capras</h3>
         <Ul>
-            <li>1 Carpa 10x20 <span>$100</span></li>
-            <li>2 Carpa 20x20 <span>$170</span></li>
-            <li>3 Carpa 20x30 <span>$180</span></li>
-            <li>4 Carpa 20x40 <span>$200</span></li>
-            <li>5 Carpa 16x40 <span>$200</span></li>
+            <li>1 Carpa 10x20 <span>$100.00</span></li>
+            <li>2 Carpa 20x20 <span>$170.00</span></li>
+            <li>3 Carpa 20x30 <span>$180.00</span></li>
+            <li>4 Carpa 20x40 <span>$200.00</span></li>
+            <li>5 Carpa 16x40 <span>$200.00</span></li>
         </Ul>
         <h3>Mesas y Sillas</h3>
         <Ul>
-            <li>Mesas<span>5</span></li>
-            <li>Sillas<span>7</span></li>
+            <li>Mesas<span>$5.00</span></li>
+            <li>Sillas<span>$7.00</span></li>
         </Ul>
         </Div>
     )

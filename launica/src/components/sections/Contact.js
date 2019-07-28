@@ -66,13 +66,13 @@ handleChange = ({target: {name, value}}) => {
 
 handleSubmit = (e) => {
  e.preventDefault()
- alert('Hello')
+ alert(`Hello ${this.state.name}, we will get back to you as soon as possible`)
 }
 
 
     render() {
         return (
-            <Form onSubmit={this.handleSubmit}>
+            <Form onSubmit={this.handleSubmit} id='contact'>
             <h2>Find Availability for Your Party Date</h2>
                 <input id="name" placeholder='name...' onChange={this.handleChange} type="text" name="name" value={this.state.name} />
                 <input id='email' type="email" name="email" onChange={this.handleChange} placeholder="email@sample.com" value={this.state.email} />
