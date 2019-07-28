@@ -17,6 +17,10 @@ const Div = styled.div`
         padding: 20px;
         font-size: 24px;
         line-height: 1.75;
+        background: white;
+        border-radius: 7px;
+        box-shadow: 1px 2px 7px rgba(0,0,0,.3);
+        opacity: .6;
     }
 
     img {
