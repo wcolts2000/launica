@@ -59,7 +59,7 @@ function Carpa() {
     return (
         <Div id="carpas">
             <h2>Carpa</h2>
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvL6sDDFjBQHHm_ylvL25Fz0vcF4SN_UrhTqJ3OvxCTirOdTK' alt="rental tents"/>
+            <img src='https://images.pexels.com/photos/2155544/pexels-photo-2155544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt="rental tents"/>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ullam neque impedit atque ipsam blanditiis totam dolor accusantium assumenda libero quas iure earum, voluptatibus aliquam hic alias vero corrupti veritatis.</p>
         </Div>
     )

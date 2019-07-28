@@ -62,7 +62,7 @@ function Sillas() {
         <Div id="sillas"> 
             <h2>Mesas Y Sillas</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ullam neque impedit atque ipsam blanditiis totam dolor accusantium assumenda libero quas iure earum, voluptatibus aliquam hic alias vero corrupti veritatis.</p>
-            <img src='https://www.rentallplaza.net/wp-content/uploads/2014/12/chairs.jpg' alt="rental chairs"/>
+            <img src='https://images.pexels.com/photos/6460/garden-party-animal-dog.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt="rental chairs"/>
         </Div>
     )
 }
