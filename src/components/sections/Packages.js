@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import bg from './../../assets/img/backyard.jpg'
+import bg from '../../assets/img/backyard.jpg'
 
 const Div = styled.div`
     background-attachment: fixed;
