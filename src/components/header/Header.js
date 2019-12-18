@@ -8,14 +8,19 @@ const Nav = styled.nav`
     top: 0;
     width: 100%;
     height: 60px;
-    background-color: lightblue;
-    z-index: 3
+    background-color: red;
+    z-index: 3;
 
     h3 {
         margin-right: 60px;
         width: 40%;
         text-align: left;
         padding: 0 10px 20px;
+        
+        a {
+        text-decoration: none;
+        color: white;
+        }
     }
 
     div {
@@ -28,12 +33,12 @@ const Nav = styled.nav`
             font-size: 18px;
             text-transform: uppercase;
             padding: 20px 60px 0;
-            color: black;
+            color: white;
             font-weight: bold;
             cursor: pointer;
 
             &:hover {
-                opacity: .9;
+                opacity: .5;
             }
         }
     }
@@ -42,11 +47,15 @@ const Nav = styled.nav`
 export default function Header() {
     return (
         <Nav>
-            <h3>La Unica</h3>
+            <h3><a href="brand" onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({top: 0, behavior: 'smooth'})
+                }}>La Unica</a></h3>
             <div>
-                <a href="#carps">Carps</a>
-                <a href="#mesas">Mesas</a>
-                <a href="#sillas">Sillas</a>
+                <a href="#sillas">Sillas/Mesas</a>
+                <a href="#carpas">Carpas</a>
+                <a href="#brincolin">Brincolin</a>
+                <a href="#contact">Contact</a>
             </div>
         </Nav>
     )
